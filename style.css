@@ -66,9 +66,20 @@ span {
 
 
   .sec-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    border: 1px solid #e04d01;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+
+  .img {
+    flex-grow: 1;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	padding: 10px;
+ 
   }
 
   
