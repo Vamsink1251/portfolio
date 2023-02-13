@@ -67,10 +67,8 @@ span {
 
   .sec-container {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-  .sub-container {
-    display:flex;
-    justify-content: space-between;
-  }
+  
